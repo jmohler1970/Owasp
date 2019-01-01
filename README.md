@@ -20,11 +20,22 @@ It is a series of functions that takes strings and encodes them for the context 
 
 How do you find out which version you have? In the ColdFusion admin, go to system information. In ColdFusion Admin, click on "System Information". Search for esapi.
 
-# FormUtils revisited
+If you Google ColdFusion ESAPI, you will find a lot of projects that brought in the `.jar` into ColdFusion. This has not been needed for a while. It is just built into ColdFusion. 
+
+# Code Review
+
+## Bad ideas
+
+What could go wrong?
+
+## Good ideas
+
+Nice cheat sheet
+
+
+## FormUtils revisited
 
 I am going to revisit my FormUtils code
-
-
 
 If you want the complete video on FormUtils, go to: https://coldfusion.adobe.com/2018/10/make-form-processing-simpler-with-brian-koteks-formutils/
 
@@ -63,4 +74,6 @@ I will leave it up to the viewers of this video to test
 - https://helpx.adobe.com/coldfusion/cfml-reference/coldfusion-functions/functions-c-d/Canonicalize.html
 - https://en.wikipedia.org/wiki/Left-to-right_mark
 - https://github.com/jmohler1970/FormUtils
+
+Speaking of resources...
 

@@ -16,7 +16,7 @@
 </head>
 <body>
 
-
+<cfparam name="form.evil" default="Evil">
 
 	<section class="hero is-info">
 		<div class="hero-body">
@@ -39,10 +39,10 @@
 		<cfoutput>
 		<div class="field">
 			<div class="control">
-				<label class="label">Evil ExamplesKey</label>
-				<input type="email" class="input" name="key" list="keys" value="#form.evil#" /><!--- As you can clearly see, this is protected by type="email" --->
+				<label class="label">Evil Examples</label>
+				<input type="email" class="input" name="evil" list="evils" value="#form.evil#" /><!--- As you can clearly see, this is protected by type="email" --->
 
-				<datalist id="keys">
+				<datalist id="evils">
 					<option value='""'>
 					<option value='"</div><javascript>Exec "C:\del *.*";</javascript>'>
 					<option value='<javascript>Exec "C:\del *.*";</javascript>'>
@@ -62,7 +62,7 @@
 	</form>
 
 	<cfoutput>
-		#form.key#<!--- What is the worst that could happen? --->
+		#form.evil#<!--- What is the worst that could happen? --->
 	</cfoutput>
 
 	</div>
