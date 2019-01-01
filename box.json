@@ -1,0 +1,8 @@
+{
+	"dependencies":{
+	    "formutils":"git://github.com/jmohler1970/FormUtils.git"
+	},
+	"installPaths":{
+	    "formutils":"formutils"
+	}
+ }
